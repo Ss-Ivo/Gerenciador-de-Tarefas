@@ -1,24 +1,23 @@
-# Task Manager (React + TypeScript)
+Gerenciador de Tarefas
 
-Sistema simples de gestão de tarefas focado em performance e tipagem rigorosa.
+Aplicação simples desenvolvida com React e TypeScript para gerenciar tarefas do dia a dia.
 
-## Tech Stack
-- React 18
+Funcionalidades
+
+- Adicionar tarefas
+- Marcar tarefas como concluídas
+- Excluir tarefas
+- Filtrar tarefas por status (todas, pendentes ou concluídas)
+- Definir prioridade (baixa, média ou alta)
+- Salvar tarefas no LocalStorage
+
+Tecnologias
+
+- React
 - TypeScript
-- Context API para State Management
-- LocalStorage para persistência
-- CSS-in-JS (padrão modular)
+- Context API
+- LocalStorage
 
-## Como rodar
-1. Instale as dependências: `npm install`
-2. Rode em dev: `npm run dev`
-3. Build para produção: `npm run build`
+Objetivo
 
-## Funcionalidades
-- CRUD completo de tarefas
-- Filtros por status (Todas, Pendentes, Concluídas)
-- Níveis de prioridade (Low, Medium, High)
-- Persistência automática no navegador
-
-## Licença
-MIT
+Este projeto foi criado para praticar conceitos de desenvolvimento front-end, gerenciamento de estado com Context API e persistência de dados no navegador.
